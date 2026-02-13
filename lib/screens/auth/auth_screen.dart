@@ -41,7 +41,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   // Logo
-                  Icon(
+                  const Icon(
                     Icons.play_circle_fill_rounded,
                     size: 80,
                     color: AppColors.primary,

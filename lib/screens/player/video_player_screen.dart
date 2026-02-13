@@ -96,8 +96,8 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                   padding: const EdgeInsets.all(16.0),
                   child: Column(
                     children: [
-                      Row(
-                        children: const [
+                      const Row(
+                        children: [
                           Text('12:40', style: TextStyle(color: Colors.white)),
                           Spacer(),
                           Text('45:20', style: TextStyle(color: Colors.white)),

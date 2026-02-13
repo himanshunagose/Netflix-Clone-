@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:glassmorphism/glassmorphism.dart';
 import '../../models/movie_model.dart';
 import '../../core/constants/app_colors.dart';
 import '../../widgets/custom_button.dart';
@@ -71,7 +69,7 @@ class MovieDetailsScreen extends StatelessWidget {
                       const SizedBox(width: 12),
                       _buildTag(context, movie.genre),
                       const SizedBox(width: 12),
-                      Icon(Icons.star_rounded, color: Colors.amber, size: 20),
+                      const Icon(Icons.star_rounded, color: Colors.amber, size: 20),
                       const SizedBox(width: 4),
                       Text(
                         movie.rating.toString(),
@@ -156,7 +154,7 @@ class MovieDetailsScreen extends StatelessWidget {
                       itemBuilder: (context, index) {
                         return Column(
                           children: [
-                            CircleAvatar(
+                            const CircleAvatar(
                               radius: 30,
                               backgroundColor: AppColors.card,
                               backgroundImage: NetworkImage(
@@ -179,7 +177,7 @@ class MovieDetailsScreen extends StatelessWidget {
                   const SizedBox(height: 32),
 
                   // Similar Content
-                  SectionHeader(title: 'More Like This'),
+                  const SectionHeader(title: 'More Like This'),
                   SizedBox(
                     height: 180,
                     child: ListView.builder(

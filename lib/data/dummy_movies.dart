@@ -4,7 +4,7 @@ import '../models/movie_model.dart';
 const _baseImg = "https://images.unsplash.com/photo-";
 
 final List<Movie> dummyMovies = [
-  Movie(
+  const Movie(
     id: '1',
     title: 'Cyberpunk: Edgerunners',
     description:
@@ -20,7 +20,7 @@ final List<Movie> dummyMovies = [
     cast: ['Kenichiro Ohashi', 'Aoi Yuki', 'Kazuhiko Inoue'],
     isSeries: true,
   ),
-  Movie(
+  const Movie(
     id: '2',
     title: 'Interstellar',
     description:
@@ -36,7 +36,7 @@ final List<Movie> dummyMovies = [
     cast: ['Matthew McConaughey', 'Anne Hathaway', 'Jessica Chastain'],
     isSeries: false,
   ),
-  Movie(
+  const Movie(
     id: '3',
     title: 'The Dark Knight',
     description:
@@ -52,7 +52,7 @@ final List<Movie> dummyMovies = [
     cast: ['Christian Bale', 'Heath Ledger', 'Aaron Eckhart'],
     isSeries: false,
   ),
-  Movie(
+  const Movie(
     id: '4',
     title: 'Stranger Things',
     description:
@@ -68,7 +68,7 @@ final List<Movie> dummyMovies = [
     cast: ['Millie Bobby Brown', 'Finn Wolfhard', 'Winona Ryder'],
     isSeries: true,
   ),
-  Movie(
+  const Movie(
     id: '5',
     title: 'Dune: Part Two',
     description:
